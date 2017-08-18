@@ -21,12 +21,12 @@ Laravel 框架会有一些系统上的要求。当然，这些要求在 [Laravel
 然而，如果你没有使用 Homestead ，你需要确保你的服务器上安装了下面的几个拓展：
 
 <div class="content-list" markdown="1">
-- PHP >= 5.6.4
-- OpenSSL PHP Extension
-- PDO PHP Extension
-- Mbstring PHP Extension
-- Tokenizer PHP Extension
-- XML PHP Extension
+- PHP版本 >= 5.6.4
+- PHP扩展: OpenSSL 
+- PHP扩展: PDO
+- PHP扩展: Mbstring
+- PHP扩展: Tokenizer
+- PHP扩展: XML
 </div>
 
 > 译者注：强烈推荐使用 Homestead 作为开发环境，尤其是新手，可以避免很多不必要的麻烦。线上环境可以参考 [Homestead 的环境部署脚本](https://github.com/laravel/settler/blob/master/scripts/provision.sh) 进行部署。
